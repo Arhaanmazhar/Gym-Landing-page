@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px ;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topLeft{
+    width: 50%;
+}
+.topRight{ 
+    width: 50%;
+}
+
+
+.section1{
+   max-height: 100vh;
+   color: rgb(164 40 26);
+}
+
+.section1 h1{
+    font-size: 2rem;
+    color: #451813;
+}
+
+.logo{
+    font-size: 1.8rem;
+}
+
+.dumbellimg{
+    width: 290px;
+}
+
+.topRight .gymimg{
+    width: 326px;
+}
+
+.section2{
+    padding: 70px;
+}
+
+.section2 h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.section2 p{
+    font-size: 1.25rem;
+ padding: 0 10vw;
+ text-align: center;
+}
+
+.box{
+    border-radius: 15px;
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(164, 80, 20);
+    text-align: center;
+}
+
+.box h2{
+    border-bottom: 2px solid black;
+    font-size: 2rem;
+    padding: 12px 0;
+}
+
+.highlighted{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 40px;
+   
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+    padding: 20px 0;
+    border-bottom: 2px solid black;
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+
+.section3 h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.section3{
+    padding: 70px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .section2 {
+        padding: 0px;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: row;
+    }
+    .section2 p{
+        font-size: 1rem;
+    }
+  .topRight{
+    width: 0%;
+    display: none;
+  }
+  .topRight img{
+    display: none;
+  }
+  .topLeft{
+    width: 100%;
+}
+  
+  }
+
+  @media screen and (max-width: 730px) {
+    .logo{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: row;
+        margin-left: -186px;
+        width: 925px;
+        height: 105px;
+    }
+    .section2 {
+        padding: 0px;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .section2 p{
+        font-size: 1rem;
+    }
+  }
+  @media screen and (max-width: 870px) {
+    .section2 {
+        padding: 0px;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .section2 p{
+        font-size: 1rem;
+    }
+    .section3 {
+        width: 522px;
+        margin: 0px -72px;
+        padding: 70px;
+    }
+  }
+  @media screen and (max-width: 545px) {
+    .section3 {
+        width: 72vw;
+        margin: auto;
+        padding-top: 24px;
+        margin: -44px;
+    }
+    .plantable{
+        margin: auto;
+    }
+  }
+  
